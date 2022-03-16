@@ -10,24 +10,40 @@ body {
 
 .header {
     margin: auto;
-    padding: 1rem;
+    padding: 2rem;
     display: inline;
     text-align: center;
     color: #8C8C8C;
-    font-size: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
 }
 
 .main-nav {
     text-decoration: none;
     text-align: center;
     margin-bottom: 20px;
+    
 }
 
 ul li {
+    text-decoration: none;
     list-style: none;
     display: inline-block;
     color: #262626;
     padding: 0 2rem;
+}
+
+li a {
+    text-decoration: none;
+    color: #262626;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: #D9D9D9;
+
 }
 
 .section-top {
@@ -89,8 +105,7 @@ p > a {
 .text {
     display: inline-block;
     height: auto;
-    width: 500px;
-    margin: ;
+    width: 600px;
     color: #8C8C8C;
     margin: 150px 100px 0 0;
     float: right;
