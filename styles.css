@@ -54,12 +54,13 @@ ul li {
   /*   position: relative; */
   /*   margin: 500px 0 0 0; */
     padding: 2rem;
+    margin-top: 200px;
 }
 
-.photo-container {
-    position: relative;
-    width: 400px;
-    position:absolute;
+p > a {
+    text-decoration: none;
+    color: white;
+    float: right
 }
 
 #photo-sebas {
@@ -67,7 +68,8 @@ ul li {
     position:absolute;
 }
 
-#photo-sebas:hover {
-    max-width: 100%;
+.photo-container {
+    position: relative;
+    width: 400px;
     position:absolute;
 }
