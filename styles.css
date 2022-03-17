@@ -6,6 +6,8 @@
 
 body {
     margin: 15px;
+   /*  width: 1000px; */
+
 }
 
 .header {
@@ -15,6 +17,8 @@ body {
     text-align: center;
     color: #8C8C8C;
 }
+
+
 
 h1 {
     font-size: 3rem;
@@ -103,12 +107,17 @@ p > a {
 }
 
 .text {
-    display: inline-block;
-    height: auto;
+    display:inline-flexbox;
+    height: 200px;
     width: 600px;
     color: #8C8C8C;
     margin: 150px 100px 0 0;
     float: right;
+    overflow: scroll;
+}
+
+.text > p:hover {
+    color: white;
 }
 
 #photo-sebas {
